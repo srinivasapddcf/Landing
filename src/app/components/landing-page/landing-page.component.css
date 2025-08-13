@@ -1,0 +1,64 @@
+.subheader h6 {
+    font-weight: 400;
+    color: #171616;
+    /* color: #971919; */
+}
+
+.TextColorChange {
+    color: #14909d;
+
+}
+
+.subheader {
+    background: radial-gradient(circle at 10% 20%, rgb(255, 200, 124) 0%, rgb(255, 200, 124) 90%);
+    /* background-color: rgb(252, 251, 121) */
+}
+
+/* Make nav items bold */
+.navbar-nav .nav-link {
+    font-weight: bold;
+    margin-left: 20px; /* Adds space between items */
+    cursor: pointer;
+  }
+  
+  /* Optional: Add some margin at the end of the last nav item */
+  .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+  }
+
+  /* Change the background color of the toggler button */
+.navbar-toggler {
+    background-color: transparent; /* Example: orange background */
+    border: 2px solid transparent; /* Change the border to match the background color */
+  }
+  
+  /* Change the color of the hamburger icon (bars) */
+  .navbar-toggler-icon {
+    background-color: transparent; /* Example: white color for the hamburger icon */
+    color: #fff !important;
+  }
+  
+  /* Change outline color when focused */
+  .navbar-toggler:focus {
+    outline: none; /* Remove the default outline */
+    box-shadow: 0 0 0px 0px rgba(253, 253, 253, 0.6); /* Add a custom focus outline */
+  }
+
+  .dropdown-item:focus, .dropdown-item:hover {
+    color: #fff !important;
+    background-color: #409871 !important;
+}
+
+
+
+
+.scroll-div {
+    font-family: "Poppins", sans-serif;
+    position: relative !important;
+    top: 111px !important;
+    z-index: 11 !important;
+}
+
+a:hover {
+    color: #141313 !important;
+}

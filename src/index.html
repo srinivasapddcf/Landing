@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>APDDCF</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!-- <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" /> -->
+	<meta http-equiv="Expires" content="0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://apddcf.ap.gov.in/cdn/img/ap-logo.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+
+    <link
+      href="https://apddcf.ap.gov.in/cdn/css/bootstrap/bootstrap5.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://apddcf.ap.gov.in/cdn/css/icofont/icofont.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://apddcf.ap.gov.in/cdn/css/animate.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css"/>
+  </head>
+  <body>
+    <app-root></app-root>
+
+    <script src="https://apddcf.ap.gov.in/cdn/js/jquery.min.js"></script>
+    <script src="https://apddcf.ap.gov.in/cdn/js/bootstrap.bundle.min.js"></script>
+    <script src="https://apddcf.ap.gov.in/cdn/js/jquery.easing.min.js"></script>
+    <script src="https://apddcf.ap.gov.in/cdn/js/wow.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://apddcf.ap.gov.in/cdn/js/main.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.gallery').each(function() { // the containers for all your galleries
+          $(this).magnificPopup({
+              delegate: 'a', // the selector for gallery item
+              type: 'image',
+              gallery: {
+                enabled:true
+              }
+          });
+        });
+      });
+
+</script>
+<script>
+  window.onpopstate = function (e) {
+    window.history.forward(1);
+  };
+   document.oncontextmenu = document.body.oncontextmenu = function() {return false;}
+   document.onkeydown = function(e) {
+     if(e.keyCode == 123) {
+     return false;
+     }
+     if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+     return false;
+     }
+     if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+     return false;
+     }
+     if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+     return false;
+     }
+     if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)){
+     return false;
+     }
+   }
+</script>
+  </body>
+</html>
